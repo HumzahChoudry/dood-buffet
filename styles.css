@@ -1,0 +1,70 @@
+body {
+  background-image: url('./assets/adams_house_wallpaper.png');
+  background-repeat:repeat;
+
+}
+.head{
+  margin: 16px;
+}
+.logo {
+  height: 75px;
+  width: auto;
+  display: inline;
+  background-color: teal;
+}
+
+nav {
+  margin: 16px;
+  background-color: teal;
+}
+
+.nav
+  > ul {
+    list-style-type: none;
+    display: inline;
+    margin: auto;
+  }
+.nav > ul > li {
+  display: inline;
+  margin: 16px;
+  font-size: 18px;
+      background: teal;
+}
+
+.main-container {
+  margin: 16px auto;
+  max-width: 1000px;
+  width: 90%;
+}
+.head-container {
+  background-color: teal;
+  margin: 32px 16px;
+  padding: 32px;
+}
+.body-container {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 16px;
+  padding: 16px;
+  background-color: teal;
+  color: #2b2b2b;
+}
+.container iframe {
+  margin: 0 auto;
+}
+
+.twitter {
+   max-height: 80vh;
+   overflow: scroll;
+   padding: 32px;
+   margin-top: 32px;
+   background-color: teal;
+}
